@@ -1,5 +1,5 @@
 # Discord_Bot
-一個名叫 **Rosmomtis** 的 discord bot，內建許多有趣或實用的功能。目前只在私人伺服器裡使用，希望未來 **Rosmontis** 的功能更完善後可以逐漸推廣給其他人。
+一個名叫 **Rosmontis** 的 discord bot，內建許多有趣或實用的功能。目前只在私人伺服器裡使用，希望未來 **Rosmontis** 的功能更完善後可以逐漸推廣給其他人。
 
 ## Rosmontis.py
 機器人的主程式。
