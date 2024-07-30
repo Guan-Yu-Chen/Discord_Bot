@@ -65,8 +65,7 @@
 
 過程中第一個遇到的問題就是Select，因為之前沒接觸過，所以花了很多時間在看相關的教學和 API 文件。其中困擾我很久的一點是TownSelect 的部分，這是我另外寫的一個class ，用來展示鄉鎮市區的選單。由於Select 只能儲存最多25個選項，但台灣有些縣市的鄉鎮數量高達30多個，所以我只能把他們拆成town_select 和 town_select2 來做處理。而這兩個物件基本上只有些微的差別，所以我花了很久時間在嘗試把程式碼重複的部分整合，但最後考量到程式的可讀性和維護性，我還是沒有做太大的修改。   
 
-另一個問題是關於中央氣象局API 的資料編號的部分，每個縣市的資料編號不同，但他沒有提供可以方便對照的數據，所以我另外寫了一個[小程式](https://github.com/Guan-Yu-Chen/Web_scraping/blob/main/County_code.py)來爬取資料並儲存成json 檔。  
-
+另一個問題是關於中央氣象局API 的資料編號的部分，每個縣市的資料編號不同，但他沒有提供可以方便對照的數據，所以我另外寫了一個[小程式](https://github.com/Guan-Yu-Chen/Web_scraping/blob/main/County_code.py)來爬取資料並儲存成json 檔。
 <br/>
 <br/>
 <br/>
